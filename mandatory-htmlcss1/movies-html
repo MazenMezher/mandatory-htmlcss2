@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="Listelements.css" />
+    <meta charset="utf-8">
+    <title>Min hemsida</title>
+  </head>
+  <body>
+    <header> <h1> Mazin's Hemsida</h1>
+         <p>Hej och välkommna till min hemsida där ni kan läsa mer om mig. </p>
+         <nav>
+           <ul>
+             <li><a href="index.html">Home page</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="movies.html">Movies</a></li>
+             <li><a href="links.html">Links</a></li>
+             <li><a href="contact.html">Contact</a></li>
+           </ul>
+         </nav>
+
+    </header>
+
+    <footer>
+
+     </footer>
+
+  </body>
+</html>
