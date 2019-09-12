@@ -17,7 +17,6 @@ header{
   width: 20%;
 }
 header h1{
-
   margin: 0px;
   display: inline;
 }
@@ -69,4 +68,11 @@ footer ul li{
 table, th, td {
   font-style: italic;
   border: 1px solid black;
+}
+.links{
+  text-align: center;
+
+}
+.Loggin{
+  text-align: center;
 }
