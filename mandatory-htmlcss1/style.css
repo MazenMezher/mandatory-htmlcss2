@@ -46,6 +46,7 @@ a:link{
 p {
   font-style:  serif;
   text-align: center;
+  padding-top: 20px;
   padding-left: 200px;
   padding-right: 200px;
 }
