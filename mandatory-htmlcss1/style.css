@@ -2,6 +2,7 @@
 body {
   margin: 0px;
   min-height: 100%;
+
 }
 header{
   font-style: italic;
@@ -70,7 +71,9 @@ table, th, td {
   border: 1px solid black;
 }
 .links{
-  text-align: center;
+  width: 600px;
+  margin: auto;
+
 
 }
 .Loggin{
