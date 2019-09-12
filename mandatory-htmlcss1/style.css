@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  min-height: 100%;
+}
+header{
+  font-style: italic;
+  text-align: center;
+  background: #66CCFF;
+  color: white;
+  padding: 15px 15px 0 15px;
+}
+.Bild{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+header h1{
+
+  margin: 0px;
+  display: inline;
+}
+nav ul{
+  margin: 0px;
+  padding: 0 0 0 15px;
+  display: inline;
+}
+nav ul li {
+
+  border-radius: 8px;
+  background: white;
+  color: #999;
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px 15px;
+}
+a:link{
+  text-decoration: none;
+}
+p {
+  font-style: Didot, serif
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+footer{
+  font-style: italic;
+ position: relative;
+ margin-top: 200px;
+ text-align: center;
+ background: #66CCFF;
+ color: white;
+ padding: 15px 15px 0 15px;
+}
+footer ul li{
+
+  list-style-type: none;
+  align-items: center;
+}
