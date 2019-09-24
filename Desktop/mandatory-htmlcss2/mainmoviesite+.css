@@ -9,53 +9,63 @@ html, body, div, img {
 }
 body {
     line-height: 1;
-    background-color: tan;
+    background: url("movies.jpg") no-repeat;
+    background-size: cover;
 }
 header {
   display: flex;
   flex-direction: row;
-  background-color: #03704A;
-  height: 100px;
+  background: url("movies2.jpg") no-repeat;
+  background-size: cover;
   margin: 0;
-
 }
 
+h1{
+  display: block;
+  border: 1px solid #256418;
+
+  border-radius: 30px;
+  color: #C12A1B;
+}
+
+/* My links fontstyle */
 li {
   display: block;
-
   border-radius: 30px;
   font-style: italic;
   display: inline;
   margin: 10px;
-  text-decoration: none;
-}
+  border: 1px solid #256418;
 
+}
+a {
+  color: #C12A1B;
+}
+/* Removed the underline of my links */
 a:link{
   text-decoration: none;
+
 }
 
 ul {
   padding-top: 20px;
 }
 
+/* Making my movies wrapped to avoid big line of images */
 .Movies {
   display: flex;
   flex-wrap: wrap;
-
-
 }
 
+/* Size for my images to stay within the required limits */
 img {
   margin: 40px;
   min-width: 150px;
   max-height: 300px;
   flex: 1;
-
 }
 
-
-
-
+/* Media quaries to adjust site for mobile devices */
 @media (max-width: 700px) {
   nav {
     display: none;
